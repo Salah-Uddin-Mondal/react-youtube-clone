@@ -15,69 +15,69 @@ import tom from '../../assets/tom.png';
 import megan from '../../assets/megan.png';
 import cameron from '../../assets/cameron.png';
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen }) => {
   return (
-    <div className='sidebar'>
+    <div className={`sidebar ${isOpen ? '' : 'collapsed-sidebar'}`}>
       <div className='shortcut-links'>
         <div className='side-link'>
           <img src={home} alt='' />
-          <p>Home</p>
+          {isOpen && <p>Home</p>}
         </div>
         <div className='side-link'>
           <img src={game_icon} alt='' />
-          <p>Gaming</p>
+          {isOpen && <p>Gaming</p>}
         </div>
         <div className='side-link'>
           <img src={automobiles} alt='' />
-          <p>Automobiles</p>
+          {isOpen && <p>Automobiles</p>}
         </div>
         <div className='side-link'>
           <img src={sports} alt='' />
-          <p>Sports</p>
+          {isOpen && <p>Sports</p>}
         </div>
         <div className='side-link'>
           <img src={entertainment} alt='' />
-          <p>Entertainment</p>
+          {isOpen && <p>Entertainment</p>}
         </div>
         <div className='side-link'>
           <img src={tech} alt='' />
-          <p>Technology</p>
+          {isOpen && <p>Technology</p>}
         </div>
         <div className='side-link'>
           <img src={music} alt='' />
-          <p>Music</p>
+          {isOpen && <p>Music</p>}
         </div>
         <div className='side-link'>
           <img src={blogs} alt='' />
-          <p>Blogs</p>
+          {isOpen && <p>Blogs</p>}
         </div>
         <div className='side-link'>
           <img src={news} alt='' />
-          <p>News</p>
+          {isOpen && <p>News</p>}
         </div>
         <hr />
       </div>
       <div className='subscribed-list'>
-        <h3>Subscribed</h3>
+        {isOpen && <h3>Subscribed</h3>}
         <div className='side-link'>
           <img src={jack} alt='jack' />
-          <p>Owen Jones</p>
+          {isOpen && <p>Owen Jones</p>}
         </div>
         <div className='side-link'>
           <img src={simon} alt='simon' />
-          <p>Merriam Music</p>
+          {isOpen && <p>Merriam Music</p>}
         </div>
         <div className='side-link'>
           <img src={tom} alt='tom' />
-          <p>Gamers Nexus</p>
+          {isOpen && <p>Gamers Nexus</p>}
         </div>
         <div className='side-link'>
           <img src={megan} alt='megan' />
-          <p>Hardware Unboxed</p>
+          {isOpen && <p>Hardware Unboxed</p>}
         </div>
         <div className='side-link'>
           <img src={cameron} alt='cameron' />
-          <p>Traversy Media</p>
+          {isOpen && <p>Traversy Media</p>}
         </div>
       </div>
     </div>
