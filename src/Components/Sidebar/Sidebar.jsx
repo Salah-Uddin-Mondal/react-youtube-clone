@@ -59,20 +59,25 @@ const Sidebar = () => {
       </div>
       <div className='subscribed-list'>
         <h3>Subscribed</h3>
-        <div className='side-link'>
-          <img src={jack} alt='jack' /> <p>Owen Jones</p>
+        <div classname='side-link'>
+          <img src={jack} alt='jack' />
+          <p>Owen Jones</p>
         </div>
-        <div className='side-link'>
-          <img src={simon} alt='simon' /> <p>Merriam Music</p>
+        <div classname='side-link'>
+          <img src={simon} alt='simon' />
+          <p>Merriam Music</p>
         </div>
-        <div className='side-link'>
-          <img src={tom} alt='tom' /> <p>Gamers Nexus</p>
+        <div classname='side-link'>
+          <img src={tom} alt='tom' />
+          <p>Gamers Nexus</p>
         </div>
-        <div className='side-link'>
-          <img src={megan} alt='megan' /> <p>Hardware Unboxed</p>
+        <div classname='side-link'>
+          <img src={megan} alt='megan' />
+          <p>Hardware Unboxed</p>
         </div>
-        <div className='side-link'>
-          <img src={cameron} alt='cameron' /> <p>Traversy Media</p>
+        <div classname='side-link'>
+          <img src={cameron} alt='cameron' />
+          <p>Traversy Media</p>
         </div>
       </div>
     </div>
