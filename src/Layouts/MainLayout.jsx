@@ -16,7 +16,7 @@ const MainLayout = () => {
       <div className='content-area'>
         <Sidebar isOpen={sidebarOpen} />
         <main>
-          <Outlet />
+          <Outlet context={{ sidebarOpen, setSidebarOpen }} />
         </main>
       </div>
     </div>
