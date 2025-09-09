@@ -7,10 +7,12 @@ import share from '../../assets/share.png';
 import save from '../../assets/save.png';
 import jack from '../../assets/jack.png';
 import user_profile from '../../assets/user_profile.jpg';
+import { useOutletContext } from 'react-router-dom';
 
 const PlayVideo = () => {
+  const { sidebarOpen } = useOutletContext();
   return (
-    <div className='play-video'>
+    <div className={`play-video ${sidebarOpen ? '' : 'large-play-video'}`}>
       <video src={video1} controls autoPlay></video>
       <h3>Don not lose hope, nor be sad.</h3>
       <div className='play-video-info'>
