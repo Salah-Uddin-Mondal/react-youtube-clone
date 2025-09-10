@@ -14,7 +14,7 @@ const PlayVideo = () => {
   return (
     <div className={`play-video ${sidebarOpen ? '' : 'large-play-video'}`}>
       <video src={video1} controls autoPlay></video>
-      <h3>Don not lose hope, nor be sad.</h3>
+      <h3>Do not lose hope, nor be sad.</h3>
       <div className='play-video-info'>
         <p>15237 Views &bull; 2 days ago</p>
         <div>
@@ -36,18 +36,18 @@ const PlayVideo = () => {
       <div className='publisher'>
         <img src={jack} alt='Publisher avatar' />
         <div>
-          <p>Quranic Quotes</p>
+          <p>Divine Quotes</p>
           <span>10M Subscribers</span>
         </div>
         <button>Subscribe</button>
       </div>
       <div className='video-description'>
-        <p>Verse 139 from Surah Ali Imran</p>
+        <p>Verse 139 from Ali Imran</p>
         <p>
-          In other words, the object was to impress upon Muslims that they
-          should not waste their time and energy by feeling sorry for whatever
-          mistakes they have made in the past. Instead, they should devote to
-          ways and means which make things right for them in the future.
+          The object was to impress upon people that they should not waste their
+          time and energy by feeling sorry for whatever mistakes they have made
+          in the past. Instead, they should devote to ways and means which make
+          things right for them in the future.
         </p>
         <hr />
         <h4>130 Comments</h4>
