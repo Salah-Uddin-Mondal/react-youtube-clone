@@ -1,12 +1,12 @@
 .play-video{
     flex-basis: 69%;
     background: #f9f9f9;
-    padding-left: 17%;
+    padding-left: 16%;
     padding-bottom: 20px;
 }
 
 .large-play-video{
-    padding-left: 7%;
+    padding-left: 5%;
 }
 
 
@@ -93,6 +93,56 @@
     margin: 15px 0;
 }
 
+.video-description p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
+
+.video-description h4{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #5a5a5a;
+}
+
 .comment{
-    margin: 15px 0;
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.comment img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comment h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.comment h3 span{
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.comment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.comment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.comment-action span{
+    margin-right: 20px;
+    color: #5a5a5a;
 }
