@@ -10,7 +10,12 @@ import thumbnail7 from '../../assets/thumbnails/thumbnail7.png';
 import thumbnail8 from '../../assets/thumbnails/thumbnail8.png';
 
 const Recommended = () => {
-  return <div>Recommended</div>;
+  return (
+    <div>
+      Recommended
+      <div></div>
+    </div>
+  );
 };
 
 export default Recommended;
