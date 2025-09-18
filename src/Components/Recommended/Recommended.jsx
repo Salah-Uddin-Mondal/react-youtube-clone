@@ -11,9 +11,14 @@ import thumbnail8 from '../../assets/thumbnails/thumbnail8.png';
 
 const Recommended = () => {
   return (
-    <div>
-      Recommended
-      <div></div>
+    <div className='recommended'>
+      <div className='side-video-list'>
+        <img src={thumbnail1} alt='thumbnail1' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const PlayVideo = () => {
   return (
     <div className={`play-video ${sidebarOpen ? '' : 'large-play-video'}`}>
       <video src={video1} controls autoPlay></video>
-      <h3>Do not lose hope, nor be sad.</h3>
+      <h3>Do not lose hope, nor be sad</h3>
       <div className='play-video-info'>
         <p>15237 Views &bull; 2 days ago</p>
         <div>

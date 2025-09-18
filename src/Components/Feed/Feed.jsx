@@ -15,98 +15,98 @@ const Feed = () => {
     <div className='feed'>
       <Link to={`video/20/1231`} className='card'>
         <img src={thumbnail1} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </Link>
       <div className='card'>
         <img src={thumbnail2} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail3} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail4} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail5} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail6} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail7} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail8} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail1} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail2} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail3} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail4} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail5} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail6} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail7} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
       <div className='card'>
         <img src={thumbnail8} alt='thumbnail' />
-        <h2>Do not lose hope, nor be sad.</h2>
-        <h3>Quran 3:139</h3>
+        <h2>Do not lose hope, nor be sad</h2>
+        <h3>Verse 3:139</h3>
         <p>15k views &bull; 2 days ago </p>
       </div>
     </div>
