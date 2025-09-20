@@ -17,7 +17,7 @@ const Recommended = () => {
         <div className='vid-info'>
           <h4>Do not lose hope, nor be sad</h4>
           <p>Verse 3:139</p>
-          <p>.</p>
+          <p>221K Views</p>
         </div>
       </div>
     </div>
