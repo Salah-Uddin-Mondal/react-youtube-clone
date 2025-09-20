@@ -20,6 +20,62 @@ const Recommended = () => {
           <p>221K Views</p>
         </div>
       </div>
+      <div className='side-video-list'>
+        <img src={thumbnail2} alt='thumbnail2' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+          <p>221K Views</p>
+        </div>
+      </div>
+      <div className='side-video-list'>
+        <img src={thumbnail3} alt='thumbnail3' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+          <p>221K Views</p>
+        </div>
+      </div>
+      <div className='side-video-list'>
+        <img src={thumbnail4} alt='thumbnail4' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+          <p>221K Views</p>
+        </div>
+      </div>
+      <div className='side-video-list'>
+        <img src={thumbnail5} alt='thumbnail5' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+          <p>221K Views</p>
+        </div>
+      </div>
+      <div className='side-video-list'>
+        <img src={thumbnail6} alt='thumbnail6' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+          <p>221K Views</p>
+        </div>
+      </div>
+      <div className='side-video-list'>
+        <img src={thumbnail7} alt='thumbnail7' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+          <p>221K Views</p>
+        </div>
+      </div>
+      <div className='side-video-list'>
+        <img src={thumbnail8} alt='thumbnail8' />
+        <div className='vid-info'>
+          <h4>Do not lose hope, nor be sad</h4>
+          <p>Verse 3:139</p>
+          <p>221K Views</p>
+        </div>
+      </div>
     </div>
   );
 };
