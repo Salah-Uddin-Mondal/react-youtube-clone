@@ -16,8 +16,8 @@ const App = () => {
       <Route path='/' element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path='/video/:categoryId/:videoId' element={<VideoPage />} />
-      </Route>
-    )
+      </Route>,
+    ),
   );
 
   return <RouterProvider router={router} />;
